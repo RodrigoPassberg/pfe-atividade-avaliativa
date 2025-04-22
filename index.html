@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Mariana Vest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja Mariana Vest</h1>
+        <nav>
+            <a href="index.html">Início</a>
+       
+            <a id="abrirCarrinhoModal"><i class="fas fa-shopping-cart"></i> Carrinho</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos" class="produtos">
+        </section>
+    </main>
+<div id="modalCarrinho" class="modal-carrinho">
+    <div class="modal-carrinho-conteudo">
+        <span id="fecharCarrinho" class="fechar">&times;</span>
+        <h2>Seu Carrinho</h2>
+        <div id="produtosCarrinho" class="produtos-carrinho">
+        </div>
+        <p>Total: <span id="totalCarrinhoModal">R$ 0,00</span></p>
+        <button id="enviarPedidoModal">Enviar Pedido</button>
+        <button id="fecharCarrinhoModal">Fechar</button>
+    </div>
+</div>
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+            <span id="fecharModal" class="fechar">&times;</span>
+            <div id="detalhesProduto" class="detalhes-produto">
+            </div>
+            <button id="adicionarCarrinho">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
