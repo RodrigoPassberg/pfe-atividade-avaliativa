@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const produtos = [
-        {
+        { 
             "id": 1,
             "nome": "Tênis lindão",
             "descricao": "O tênis mais lindo do mundo",
